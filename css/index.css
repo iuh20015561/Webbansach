@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.div_all{
+    background-color: #ececec;
+    width: 100%;
+}
+
+.logo_home{
+    width: 75%;
+    height: 60px;
+    margin-left: 20px;
+    margin: 10px;
+}
+
+.banner_sale{
+    background-color: #8c979a;
+}
+
+.search input{
+    width: 84%;
+    height: 100%;
+    border-radius: 30px;
+    border: none;
+    padding-left: 20px;
+}
+
+.search form{
+    border-radius: 30px;
+    border: 1px solid #AA0000;
+    width: 100%; 
+    height: 50px;
+    margin: 15px; 
+}
+
+.search button{
+    height: 90%;
+    width: 15%;
+    border-radius: 30px;
+    color: white;
+    background-color: #AA0000;
+}
+
+.luaChon{
+    display:block;
+    color: #AA0000;
+    font-size: 35px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    text-align: center;
+}
+
+.luaChon p{
+    font-size: 15px;
+}
+
+.luaChon:hover{
+    border-radius: 100%;
+    width: 27%;
+    
+}
+
+.nav_menu{
+    background-color: #AA0000;
+    color: white;
+    font-size: 20px;
+    padding-left: 10%;
+    padding-right: 5%;
+    font-weight: 800;
+}
+
+.dropdown-menu{
+    border: 2px solid #AA0000;
+    width: 300px;
+}
+.nav_menu li{
+    list-style: none;
+    color: #AA0000;
+}
+.nav_menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+
+}
+
+.nav-link:hover{
+    background-color: #ececec;
+    color: #AA0000;
+}
+
+.dropdown-menu a{
+    color: #AA0000;
+    font-size: 20px;
+}
+
+.dropdown-menu a:hover{
+    color: blue;
+    text-transform: uppercase;
+}
+
+.xuHuong{
+    width: 100%;
+    background-color: #fad3eb;
+    padding-top: 10px;
+    padding-left: 10px;
+    padding: 5px;
+    border-bottom: 1px solid #8c979a;
+    box-shadow: 0px 0px 5px #AA0000;
+}
+
+.xuHuong i{
+    background-image: linear-gradient(#bd3b3b, rgb(139, 39, 56));
+    border-radius: 100%;
+    color: white;
+    max-width: 30px;
+}
+
+.xuHuong h3{
+    position: relative;
+    top: 5px;
+}
+
+.sanPham{
+    background-color: white;
+    margin-bottom: 10px;
+}
+
+.motSanPham{
+    width: 25%;
+    border:1px solid #8c979a;
+    box-shadow: 2px 2px 2px #8c979a;
+    margin: 20px;
+    
+}
+  
+.motSanPham:hover{
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px #8c979a;
+}
+
+.motSanPham img{
+    width: 100%;
+    height: 100%;
+    box-shadow: 5px 5px 5px #8c979a;
+    align-self: center;
+}
+
+.sale{
+    border-radius: 100%;
+    background-color: #F7941E;
+    width: 65px;
+    height: 65px;
+    color: white;
+    position: relative;
+    top: -280px;
+    right: -210px;
+    text-align: center;
+    font-size: 25px;
+    line-height: 60px;
+    
+}
+
+.label-pro-sale{
+    background-color: #F7941E;
+    width: 44px;
+    height: 44px;
+    border-radius: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    z-index: 1;
+}
+
+.motSanPham h5{
+    height: 55px;
+}
+.gia{
+    float: left;
+    color: red;
+}
+.daBan{
+    margin-top: 5px;
+    float: right;
+    color: #8c979a;
+}
+
+.muaNgay{
+    width: 75%;
+    clear: both;
+    background-color: white;
+    border: 2px solid #AA0000;
+    border-radius: 20px;
+    text-align: center;
+    color: #AA0000;
+    margin: 10%;
+    font-size: 20px;
+    padding: auto;
+}
+
+.muaNgay:hover{
+    background-color: #AA0000;
+    color: white;
+}
+
+.xemThem{
+    width: 20%;
+    font-size: 20px;
+    background-color: white;
+    border: 2px solid #AA0000;
+    border-radius: 20px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #AA0000;
+    margin-bottom: 10px;
+}
+
+.xemThem:hover{
+    background-color: #AA0000;
+    color: white;
+}
+
+.footer{
+    clear: both;
+    background-color: #ececec;
+}
+
+.footer1{
+    display: flex;
+    background-color: #8c979a;
+    border-top-left-radius: 20px ;
+    border-top-right-radius: 20px ;
+    padding: 10px;
+    line-height: 10px;
+}
+
+.footer1 img{
+    width: 15%;
+    height: 50px;
+}
+
+.footer1 form{
+    display: flex;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    border: 2px solid #AA0000;
+    padding: 2px;
+}
+
+.footer1 input{
+    height: 100%;
+    width: 85%;
+    border-radius: 20px;
+    border: none;
+}
+
+.footer1 button{
+    height: 100%;
+    width: 15%;
+    border-radius: 20px;
+    color: white;
+    background-color: #AA0000;
+}
+
+.footer2{
+    margin: 0px;
+
+}
+
+.footer li{
+    list-style: none;
+}
+
+.footer a{
+    color: black;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #AA0000;
+}
+
+.footer3{
+    display: flex;
+    border-top: 1px solid #8c979a;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.blog{
+    border: 1px solid #AA0000;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px #bd3b3b;
+    background-color: white;
+}
+
+.line{
+    border-top: 1px #AA0000 solid;
+    width: 80%;
+    box-shadow: 2px 2px 2px #AA0000;
+}
+
+.img_nd{
+    display: flex;
+    padding-top: 20px;
+}
+
+.img_blog{
+    width: 20%;
+}
+
+.nd_blog{
+    margin-left: 30px;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.aboutUs{
+    border: 1px solid #AA0000;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 1000px;
+    box-shadow: 5px 5px 5px #bd3b3b;
+    display: flex;
+    background-color: white;
+}
+
+.img_aboutUs{
+    width: 40%;
+}
+
+.img_aboutUs img{
+    width: 100%;
+    border-radius: 100%;
+}
+
+.nd_aboutUs{
+    width: 60%;
+    padding: 30px;
+    font-size: 30px;
+}
+
+.chiTiet{
+    background-color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.chiTiet1{
+    display: flex;
+}
+
+.ct1-left{
+    width: 50%;
+}
+
+.ct1-right{
+    width: 50%;
+    padding: 20px;
+    display: inline-block;
+}
+
+
+ .ct1-right p{
+    font-family: 'Nunito', sans-serif;
+ }
+
+ .roboto{
+    font-family: 'Roboto', sans-serif;
+ }
+
+ .gioHang{
+    position: relative;
+    top: 150px;
+    right: 150px;
+    border: 2px solid #AA0000;
+    border-radius: 30px;
+    background-color: #AA0000;
+    width: 30%;
+    height: 50px;
+    color: white;
+ }
+
+ .gioHang:hover{
+    background-color: white;
+    border: 2px solid#AA0000;
+    color: #AA0000;
+ }

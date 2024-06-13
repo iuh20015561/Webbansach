@@ -1,0 +1,26 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+#container
+{
+    text-align: center;
+}
+tr
+{
+    border: 3px solid;
+}
+img
+{
+    width:100px;
+}
+th
+{
+    text-align: center;
+}
+td
+{
+    width: 200px;
+}
